@@ -14,11 +14,11 @@ provider "aws" {
 }
 
 
-resource "aws_instance" "web" {
-    ami = "ami-0f8ca728008ff5af4"
-    instance_type = "t3.micro"
+# resource "aws_instance" "web" {
+#     ami = "ami-0f8ca728008ff5af4"
+#     instance_type = "t3.micro"
 
-    tags = {
-      "Name" = "Ubuntu Server"
-    }
-}
+#     tags = {
+#       "Name" = "Ubuntu Server"
+#     }
+# }
